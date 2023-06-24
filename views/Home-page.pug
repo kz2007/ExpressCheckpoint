@@ -1,0 +1,11 @@
+extends layout
+
+block content
+   if(available)
+      include ./header.pug
+      h3 Home Page
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, omnis doloremque. In assumenda eligendi fugiat laboriosam, cum vel sit, error vitae odio, impedit saepe ipsam incidunt sed commodi consequatur quaerat!
+      include ./footer.pug
+   else
+      h2 This page is unavailble right now 
+      h3 We are only available during working hours (Monday to Friday,  from 9 to 17).
